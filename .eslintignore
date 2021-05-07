@@ -1,0 +1,13 @@
+# test and config files
+*.test.js
+*.config.js
+
+# dependencies
+node_modules/
+
+# Built code
+lib/
+build/
+
+# Binaries
+bin/
