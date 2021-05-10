@@ -1,6 +1,6 @@
 {
   "name": "jest-bats",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run Bats tests with Jest",
   "author": "Romain Vermeulen",
   "license": "MIT",
@@ -15,7 +15,11 @@
   "keywords": [
     "jest",
     "bats",
-    "bash"
+    "bash",
+    "runner",
+    "test",
+    "testing",
+    "tap"
   ],
   "main": "jest-preset.js",
   "scripts": {
