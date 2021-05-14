@@ -18,12 +18,12 @@ both bats and javascript tests. To do so, simply add this to your
 `package.json`:
 ```json
 {
-	"jest": {
-		"projects": [
-			{ "preset": "jest-bats" },
-			{ "displayName": "node" }
-		]
-	}
+  "jest": {
+    "projects": [
+      { "preset": "jest-bats" },
+      { "displayName": "node" }
+    ]
+  }
 }
 ```
 If you only have bats scripts to test in your project, you can set jest-bats as 
