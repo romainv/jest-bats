@@ -6,10 +6,10 @@ describe("run", () => {
     await expect(run(options)).resolves.toEqual(
       expect.objectContaining({
         // Expect the perfStats attribute to be populated
-        perfStats: {
+        perfStats: expect.objectContaining({
           start: expect.any(Number),
           end: expect.any(Number),
-        },
+        }),
       })
     )
   })
